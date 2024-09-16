@@ -1,0 +1,33 @@
+/* /assets/css/accesibilidadWeb.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css');
+
+
+/* Estilos personalizados para el formulario */
+
+
+.field {
+    margin-bottom: 1.5rem;
+}
+
+.label {
+    font-weight: bold;
+}
+
+.control {
+    margin-top: 0.5rem;
+}
+
+.button.is-primary {
+    background-color: #00d1b2;
+    border-color: #00d1b2;
+    color: #fff;
+}
+
+
+/* Estilos para que los campos se vean en una sola línea */
+.field.is-grouped {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
